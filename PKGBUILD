@@ -6,12 +6,12 @@ pkgver=4.1.1
 pkgrel=1
 pkgdesc='Japanese TrueType font for developers by mixing Inconsolata and Migu 1M.'
 arch=('any')
-url='http://www.rs.tus.ac.jp/yyusa/ricty.html'
+url='http://www.yusa.lab.uec.ac.jp/~yusa/ricty.html'
 license=('custom')
 depends=()
 makedepends=('fontforge' 'ttf-inconsolata' 'ttf-migu')
 install=ttf.install
-source=('http://www.rs.tus.ac.jp/yyusa/ricty/ricty_generator-4.1.1.sh')
+source=('http://www.yusa.lab.uec.ac.jp/~yusa/ricty/ricty_generator-4.1.1.sh')
 sha256sums=('86bf0fed84ef806690b213798419405d7ca2a1a4bed4f6a28b87c2e2d07ad60d')
 
 build() {
